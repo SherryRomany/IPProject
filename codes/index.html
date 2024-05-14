@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Airwing</title>
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                Font Awesome
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css"/>
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   <!-- Templatemo style -->
+</head>
+
+    <body>
+        <div class="tm-main-content" id="top">
+            <div class="tm-top-bar-bg"></div> 
+            <div class="tm-top-bar" id="tm-top-bar">
+                <!-- Top Navbar -->
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg narbar-light">
+                            <a class="navbar-brand mr-auto" href="#">
+                                <img src="img/airplane-icon-vector-transportation-logo-600nw-1283834365 (2).webp" alt="Site logo">
+                                Airwing
+                            </a>
+                            <!-- <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button> -->
+                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-4">Portfolio</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-5">Blog Entries</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-6">Contact Us</a>
+                                  </li>
+                                </ul>
+                            </div>                            
+                        </nav>            
+                    </div>
+                </div>
+            </div>
+            <div class="tm-section tm-bg-img" id="tm-section-1">
+                <div class="tm-bg-white ie-container-width-fix-2">
+                    <div class="container ie-h-align-center-fix">
+                        <div class="row">
+                            <div class="col-xs-12 ml-auto mr-auto ie-container-width-fix">
+                                <form action="index.html" method="get" class="tm-search-form tm-section-pad-2"> 
+                                    <div class="form-row tm-search-form-row">
+                                        <div class="form-group tm-form-element tm-form-element-100">
+                                            <i class="fa fa-map-marker fa-2x tm-form-element-icon"></i>
+                                            <input name="city" type="text" class="form-control" id="inputCity" placeholder="Type your destination...">
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-50">
+                                            <i class="fa fa-calendar fa-2x tm-form-element-icon"></i>
+                                            <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Depart">
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-50">
+                                            <i class="fa fa-calendar fa-2x tm-form-element-icon"></i>
+                                            <input name="check-out" type="text" class="form-control" id="inputCheckOut" placeholder="Return">
+                                        </div>
+                                    </div>
+                                    <div class="form-row tm-search-form-row">
+                                        <div class="form-group tm-form-element tm-form-element-2">                                            
+                                            <select name="adult" class="form-control tm-select" id="adult">
+                                                <option value="">Adult</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                            <i class="fa fa-2x fa-user tm-form-element-icon"></i>
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-2">                                            
+                                            <select name="children" class="form-control tm-select" id="children">
+                                                <option value="">Children</option>
+                                                <option value="0">0</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                            </select>
+                                            <i class="fa fa-user tm-form-element-icon tm-form-element-icon-small"></i>
+                                        </div>
+                                        
+                                 
+                                            <a href="reservation.html" class="btn btn-primary tm-btn-search" >Search Flight</a>
+                                       
+                                      </div>
+                                      <div class="form-row clearfix pl-2 pr-2 tm-fx-col-xs">
+                                          <!-- <p class="tm-margin-b-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+                                          <a href="#tm-section-6" class="ie-10-ml-auto ml-auto mt-1 tm-font-semibold tm-color-primary">Need Help?</a>
+                                      </div>
+                                </form>
+                            </div>                        
+                        </div>      
+                    </div>
+                </div>                  
+            </div>
+            
+            <div class="tm-section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2 class="tm-section-title">We are here to help you?</h2>
+                            <p class="tm-color-white tm-section-subtitle">Subscribe to get more offers</p>
+                            <a href="form.html" class="tm-color-white tm-btn-white-bordered">Subscribe </a>
+                        </div>                
+                    </div>
+                </div>        
+            </div>
+            
+            <div class="tm-section tm-position-relative">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
+                    <polygon fill="#ee5057" points="0,0  100,0  50,60"></polygon>                   
+                </svg> 
+                <div class="container tm-pt-5 tm-pb-4">
+                    <div class="row text-center">
+                        <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
+                            <i class="fa tm-fa-6x fa-legal tm-color-primary tm-margin-b-20"></i>
+                            <h3 class="tm-color-primary tm-article-title-1">Airwing Airflight Website</h3>
+                            <p>You are allowed book,cancel and delay your flight or book hotels.</p>
+                            <a href="#" class="text-uppercase tm-color-primary tm-font-semibold">Continue reading...</a>
+                        </article>
+                        <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
+                            <i class="fa tm-fa-6x fa-plane tm-color-primary tm-margin-b-20"></i>
+                            <h3 class="tm-color-primary tm-article-title-1">Book From Airport</h3>
+                            <p>You can book your flight even if you are in the airport to any distination you want.</p>
+                            <a href="#" class="text-uppercase tm-color-primary tm-font-semibold">Continue reading...</a>                            
+                        </article>
+                        <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                           
+                            <i class="fa tm-fa-6x fa-life-saver tm-color-primary tm-margin-b-20"></i>
+                            <h3 class="tm-color-primary tm-article-title-1">Contact Us </h3>
+                            <p>If you have any problem with booking your flight please contact us we are ready to help.</p>
+                            <a href="#" class="text-uppercase tm-color-primary tm-font-semibold">Continue reading...</a>                           
+                        </article>
+                    </div>        
+                </div>
+            </div>
+            
+            <div class="tm-section tm-section-pad tm-bg-gray" id="tm-section-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                            <div class="tm-article-carousel">                            
+                                <article class="tm-bg-white mr-2 tm-carousel-item article1">
+                                    <img src="img/img-01.jpg" alt="Image" class="img-fluid">
+                                    <div class="tm-article-pad">
+                                        <header><h3 class="text-uppercase tm-article-title-2">One of beautiest california districts</h3></header>
+                                        <p>Where you can enjoy fresh air,the beauty of silence and green areas. Nullam sollicitudin at augue venenatis eleifend. Nulla ligula ligula, egestas sit amet viverra id, iaculis sit amet ligula.</p>
+                                        <a href="#" class="text-uppercase btn-primary tm-btn-primary">Get More Info.</a>
+                                    </div>                                
+                                </article>                    
+                                <article class="tm-bg-white mr-2 tm-carousel-item article1">
+                                    <img src="img/img-02.jpg" alt="Image" class="img-fluid">
+                                    <div class="tm-article-pad">
+                                        <header><h3 class="text-uppercase tm-article-title-2">New York  the wonderful city with skyscrapers</h3></header>
+                                        <p>You can enjoy the times square and the hight of skyscrapers . Morbi viverra blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis gravida.</p>
+                                        <a href="#" class="text-uppercase btn-primary tm-btn-primary">View Detail</a>
+                                    </div>                                
+                                </article>
+                                <article class="tm-bg-white mr-2 tm-carousel-item article1">
+                                    <img src="img/GettyImages-167618183 (1).jpg" alt="Image" class="img-fluid">
+                                    <div class="tm-article-pad">
+                                        <header><h3 class="text-uppercase tm-article-title-2">the great wall of china </h3></header>
+                                        <p>Spanning over 13,000 miles , the Great Wall of China stands as an enduring testament to ancient engineering prowess , weaving through mountains and valleys with timeless grandeur, its one of the most iconic and monumental architectural feats in human history.</p>
+                                        <a href="#" class="text-uppercase btn-primary tm-btn-primary">More Info.</a>
+                                    </div>                                
+                                </article>
+                                <article class="tm-bg-white mr-2 tm-carousel-item article1">
+                                    <img src="img/a1aff2ea163604c7be42140235af0772 (1).jpg" alt="Image" class="img-fluid">
+                                    <div class="tm-article-pad">
+                                        <header><h3 class="text-uppercase tm-article-title-2">DUBAI where the arab world  </h3></header>
+                                        <p>Dubai, a dazzling metropolis in the heart of the desert, rises like a modern-day oasis, boasting architectural marvels,Dubai's relentless pursuit of excellence has positioned it as a global hub for business, tourism, luxury shopping, and a vibrant cultural scene that captivates visitors from around the globe</p>
+                                        <a href="#" class="text-uppercase btn-primary tm-btn-primary">Detail Info.</a>
+                                    </div>                                
+                                </article>                    
+                                <article class="tm-bg-white mr-2 tm-carousel-item article1">
+                                    <img src="img/egypt-sphynx-pyramid-0414211.webp" alt="Image" class="img-fluid">
+                                    <div class="tm-article-pad">
+                                        <header><h3 class="text-uppercase tm-article-title-2">Egypt where Civilization are born</h3></header>
+                                        <p>Egypt, cradle of civilization, mesmerizes with its majestic pyramids, storied temples, and timeless mysteries, inviting travelers to unravel the secrets of its rich history along the banks of the Nile.</p>
+                                        <a href="#" class="text-uppercase btn-primary tm-btn-primary">Read More</a>
+                                    </div>                                
+                                </article>
+                                <article class="tm-bg-white tm-carousel-item article1">
+                                    <img src="img/34822ae1-city-21033-1647f45cd43.jpg" alt="Image" class="img-fluid">
+                                    <div class="tm-article-pad">
+                                        <header><h3 class="text-uppercase tm-article-title-2">Tokyo, a city where ancient traditions meet cutting-edge innovation</h3></header>
+                                        <p>Tokyo, Japan's bustling capital, is a mesmerizing blend of tradition and modernity. From its towering skyscrapers to serene cherry blossom gardens, Tokyo offers a sensory feast for visitors. Explore its vibrant neighborhoods.</p>
+                                        <a href="#" class="text-uppercase btn-primary tm-btn-primary">More Details</a>
+                                    </div>                                
+                                </article>
+                            </div>    
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-recommended-container">
+                            <div class="tm-bg-white">
+                                <div class="tm-bg-primary tm-sidebar-pad">
+                                    <h3 class="tm-color-white tm-sidebar-title">Recommended Places</h3>
+                                    <p class="tm-color-white tm-margin-b-0 tm-font-light">You can visit and enjoy any of this places through us </p>
+                                </div>
+                                <div class="tm-sidebar-pad-2">
+                                    <a href="#" class="media tm-media tm-recommended-item">
+                                        <img src="img/tn-img-01.jpg" alt="Image">
+                                        <div class="media-body tm-media-body tm-bg-gray">
+                                            <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Europe</h4>
+                                        </div>                                        
+                                    </a>
+                                    <a href="#" class="media tm-media tm-recommended-item">
+                                        <img src="img/tn-img-02.jpg" alt="Image">
+                                        <div class="media-body tm-media-body tm-bg-gray">
+                                            <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Asia</h4>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="media tm-media tm-recommended-item">
+                                        <img src="img/tn-img-03.jpg" alt="Image">
+                                        <div class="media-body tm-media-body tm-bg-gray">
+                                            <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">Africa</h4>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="media tm-media tm-recommended-item">
+                                        <img src="img/tn-img-04.jpg" alt="Image">
+                                        <div class="media-body tm-media-body tm-bg-gray">
+                                            <h4 class="text-uppercase tm-font-semibold tm-sidebar-item-title">South America</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tm-bg-video">
+                <div class="overlay">
+                    <i class="fa fa-5x fa-play-circle tm-btn-play"></i>
+                    <i class="fa fa-5x fa-pause-circle tm-btn-pause"></i>
+                </div>
+                <video controls="" loop="" class="tmVideo">
+                    <source src="videos/video.mp4" type="video/mp4">
+                    <source src="videos/video.ogg" type="video/ogg">
+                   
+                </video>
+                <div class="tm-section tm-section-pad tm-bg-img" id="tm-section-5">                                                        
+                    <div class="container ie-h-align-center-fix">
+                        <div class="row tm-flex-align-center">
+                            <div class="col-xs-12 col-md-12 col-lg-3 col-xl-3 tm-media-title-container">
+                                <h2 class="text-uppercase tm-section-title-2">ASIA</h2>
+                                <h3 class="tm-color-primary tm-font-semibold tm-section-subtitle-2">Singapore</h3>
+                            </div>
+                            <div class="col-xs-12 col-md-12 col-lg-9 col-xl-9 mt-0 mt-sm-3">
+                                <div class="ml-auto tm-bg-white-shadow tm-pad tm-media-container">
+                                    <article class="media tm-margin-b-20 tm-media-1">
+                                        <img src="img/img-03.jpg" alt="Image">
+                                        <div class="media-body tm-media-body-1 tm-media-body-v-center">
+                                            <h3 class="tm-font-semibold tm-color-primary tm-article-title-3">Where creativity and genius design</h3>
+                                            <p>Singapore's creative pulse beats strong, merging art, design, and technology in a dynamic cultural tapestry. From iconic architectural marvels like Marina Bay Sands to thriving arts festivals and culinary fusion, creativity permeates every aspect of the city. Its status as a hub for innovation and multiculturalism cements Singapore's reputation as a beacon of creativity in Asia. 
+                                            <br><br>
+											Singapore's creative spirit extends beyond its shores, attracting artists, designers, and innovators from around the globe to collaborate and showcase their talents</p>
+                                        </div>                                
+                                    </article>
+                                    <article class="media tm-margin-b-20 tm-media-1">
+                                        <img src="img/img-04.jpg" alt="Image">
+                                        <div class="media-body tm-media-body-1 tm-media-body-v-center">
+                                            <h3 class="tm-font-semibold tm-article-title-3">Unraveling Tomorrow: Exploring the Cutting Edge of Technology</h3>
+                                            <p>Technology is reshaping our world at an unprecedented pace, unlocking new possibilities and redefining human potential. From artificial intelligence to blockchain, innovation knows no bounds in this digital age.</p>
+                                            <a href="#" class="text-uppercase tm-color-primary tm-font-semibold">Continue reading...</a>
+                                        </div>                                
+                                    </article>
+                                    <article class="media tm-margin-b-20 tm-media-1">
+                                        <img src="img/img-05.jpg" alt="Image">
+                                        <div class="media-body tm-media-body-1 tm-media-body-v-center">
+                                            <h3 class="tm-font-semibold tm-article-title-3">Finding Serenity: Unwinding in the Tranquil Embrace of Relaxation</h3>
+                                            <p>"In the gentle embrace of relaxation, the world's chaos fades into tranquility, allowing the mind and body to rejuvenate and find peace.</p>
+                                            <a href="#" class="text-uppercase tm-color-primary tm-font-semibold">Continue reading...</a>
+                                        </div>                                
+                                    </article>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            
+            <div class="tm-section tm-section-pad tm-bg-img tm-position-relative" id="tm-section-6">
+                <div class="container ie-h-align-center-fix">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-7">
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3451.3796577665003!2d31.329538124606493!3d30.111947874889573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14581595b09cdf73%3A0x52432a756c826b22!2z2KfZhNis2KfZhdi52Kkg2KfZhNmF2LXYsdmK2Kkg2KfZhNi12YrZhtmK2Kk!5e0!3m2!1sar!2seg!4v1701597320595!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>        
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mt-3 mt-md-0">
+                            <div class="tm-bg-white tm-p-4">
+                                <form action="index.html" method="post" class="contact-form">
+                                    <div class="form-group">
+                                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary tm-btn-primary">Send Message Now</button>
+                                </form>
+                            </div>                            
+                        </div>
+                    </div>        
+                </div>
+            </div>
+            
+            <footer class="tm-bg-dark-blue">
+                <div class="container">
+                    <div class="row">
+                        <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
+                        MADE BY AIRWINGS 
+                        
+                               
+                    </div>
+                </div>                
+            </footer>
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                    <!-- https://popper.js.org/ -->       
+        <script src="js/bootstrap.min.js"></script>                 <!-- https://getbootstrap.com/ -->
+        <script src="js/datepicker.min.js"></script>                <!-- https://github.com/qodesmith/datepicker -->
+        <script src="js/jquery.singlePageNav.min.js"></script>      
+        <script src="slick/slick.min.js"></script>                 
+        <script src="js/mahmoud.js"></script>        
+
+</body>
+</html>
