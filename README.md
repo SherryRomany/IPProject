@@ -1,6 +1,7 @@
 
 
 **Project Name**
+
 **Airwings**
 
 **Description**
@@ -20,6 +21,7 @@ This project is a simple airline reservation system that allows users to:
 * Booking management
   
 **Technology Stack**
+
 HTML 
 JS 
 CSS
