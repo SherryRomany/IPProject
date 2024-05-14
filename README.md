@@ -22,7 +22,7 @@ This project is a simple airline reservation system that allows users to:
   
 **Technology Stack**
 
-HTML 
-JS 
-CSS
-BOOTSTRAP
+* HTML 
+* JS 
+* CSS
+* BOOTSTRAP
